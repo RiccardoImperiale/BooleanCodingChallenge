@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-image: url(img/background.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  padding-inline: 24px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.layover {
+  width: 1200px;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin: 24px auto;
+  border-radius: 20px 20px;
+  padding: 100px 0;
+  padding-inline: 3rem;
+}
+
+/* HEADER ---------------------------------------->  */
+
+.logo {
+  width: 250px;
+  display: block;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+  color: rgb(0, 255, 0);
+  font-weight: normal;
+  font-size: 30px;
+  margin: 8px 0;
+}
+
+/* NAV ---------------------------------------->  */
+
+.green-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: rgb(0, 255, 0);
+  padding: 10px;
+}
+
+.buttons>input {
+  cursor: pointer;
+  padding-inline: 10px;
+}
+
+/* MAIN ---------------------------------------->  */
+
+.options {
+  color: white;
+  margin-top: 20px;
+}
+
+h2 {
+  display: inline-block;
+  font-weight: normal;
+  margin-left: 5px;
+}
+
+p {
+  font-weight: 300;
+  line-height: 1.6;
+}
+
+.arrow {
+  margin-right: 5px;
+}
+
+.bar {
+  height: 25px;
+  border-radius: 4px 4px;
+}
+
+#orange-bar {
+  background-color: #F5B453;
+  width: 35%;
+}
+
+#green-bar {
+  background-color: #1EC31E;
+  width: 60%;
+
+}
+
+#red-bar {
+  background-color: #BE4141;
+  width: 12%;
+}
